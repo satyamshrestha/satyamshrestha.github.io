@@ -31,14 +31,14 @@ $(document).ready(function () {
 
     // typing text animation script
     const typed = new Typed(".typing", {
-        strings: ["Frontend developer", "Automation Specialist", "Pythonista", "Data Miner"],
+        strings: ["Web Developer", "Automation Specialist", "Pythonista", "Data Miner"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     const typed2 = new Typed(".typing-2", {
-        strings: ["Frontend developer", "Automation Specialist", "Pythonista", "Data Miner"],
+        strings: ["Web Developer", "Automation Specialist", "Pythonista", "Data Miner"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
