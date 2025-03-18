@@ -5,18 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Satyam Shrestha's portfolio showcasing my work in frontend and backend development, AI, and software engineering.">
+        content="Satyam Shrestha's portfolio showcasing my work in web development, AI, and software engineering.">
     <meta name="author" content="Satyam Shrestha">
     <meta name="keywords"
         content="portfolio, full-stack development, AI, software engineering, Satyam Shrestha, Python, C programming, Front End Developer, Front end development">
-    <meta property="og:title" content="Satyam Shrestha - Your Go-To Front End Developer">
+    <meta property="og:title" content="Satyam Shrestha - GenAI Engineer">
     <meta property="og:description"
-        content="Explore my portfolio showcasing my skills in front end development, AI, and more.">
+        content="Explore my portfolio showcasing my skills in Web development, AI, and more.">
     <meta property="og:image" content="https://www.shresthasatyam.com.np/pfp1.png">
     <meta property="og:url" content="https://www.shresthasatyam.com.np">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Satyam Shrestha's Portfolio">
-    <meta name="twitter:description" content="Showcasing my Web Development, Scraping, Automation, and AI projects.">
+    <meta name="twitter:description" content="Showcasing my Web Development, AI projects, Scraping and Automation.">
     <meta name="twitter:image" content="https://www.shresthasatyam.com.np/pfp1.png">
     <title>Satyam Shrestha</title>
     <link rel="stylesheet" href="styles.css">
@@ -56,6 +56,17 @@
         </div>
     </nav>
 
+    <!-- K.A.S.P.E.R. -->
+    <button id="toggle-button" onclick="toggleContainer()"><i class="fa-solid fa-robot" id="icon"></i></button>
+    <div id="chat-container">
+        <h1>K.A.S.P.E.R.</h1>
+        <div id="chat-history"></div>
+        <form id="chat-form">
+            <input type="text" class="query" id="user-input" placeholder="Enter your query..." autocomplete="off">
+            <button type="submit" class="sendbtn">Send</button>
+        </form>
+    </div>
+
     <!-- home section start -->
     <section class="home" id="home">
         <div class="max-width">
@@ -80,11 +91,15 @@
                 </div>
                 <div class="column right">
                     <div class="text">I'm Satyam Shrestha, a <span class="typing-2"></span></div>
-                    <p> And I am a dynamic and enthusiastic 17-year-old aspiring web developer with automation and scraping expertise,
-                        specializing in website development, web scraping and automation. A firm believer in my abilities, I thrive in
-                        collaborative and challenging environments where creativity meets innovation. As a fresher, I bring fresh
+                    <p> And I am a dynamic and enthusiastic 17-year-old aspiring web developer with automation and
+                        scraping expertise,
+                        specializing in website development, web scraping and automation. A firm believer in my
+                        abilities, I thrive in
+                        collaborative and challenging environments where creativity meets innovation. As a fresher, I
+                        bring fresh
                         perspectives and innovative project ideas, backed by proficiency in HTML, CSS, JavaScript, C,
-                        and Python. Additionally, I have a solid foundation in project management and customer relations,
+                        and Python. Additionally, I have a solid foundation in project management and customer
+                        relations,
                         which enhances my ability to deliver impactful solutions. My passion for learning and growth
                         drives me to contribute meaningfully to dynamic teams and create exceptional user experiences.
                     </p>
@@ -161,11 +176,13 @@
                 <div class="column left">
                     <div class="text">My creative skills & experiences.</div>
                     <p> My skills include creation of successful responsive websites that are fast, easy to use, and
-                        built with best practices. The main area of my expertise is website development, HTML, CSS, JS, building small
+                        built with best practices. The main area of my expertise is website development, HTML, CSS, JS,
+                        building small
                         and medium web apps, features, animations, and coding interactive layouts.
                         <br><br>
                         Furthermore, I possess a proficient understanding of python programming, with solid experience
-                        in applying it to automation and data scraping along with other real-world projects. Also, I have a solid intermediate expertise in C programming!<br>
+                        in applying it to automation and data scraping along with other real-world projects. Also, I
+                        have a solid intermediate expertise in C programming!<br>
                         Visit my<a href="https://www.facebook.com/mesat.shrestha" target="-blank"
                             id="link">Facebook</a>for more details.
                     </p>
@@ -282,20 +299,18 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="">
+                    <form id="contactForm" onsubmit="handleSubmit(event)">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
-                            </div>
-                            <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="text" placeholder="Name" id="name" autocomplete="off" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" placeholder="Subject" id="subject" autocomplete="off" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                            <textarea cols="30" rows="10" placeholder="Message.." id="message" autocomplete="off"
+                                required></textarea>
                         </div>
                         <div class="button-area">
                             <button type="submit">Send message</button>
@@ -358,4 +373,5 @@
         })
     </script>
 </body>
+
 </html>
