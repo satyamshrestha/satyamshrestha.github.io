@@ -1296,6 +1296,15 @@ footer p a:hover {
         width: 350px;
     }
 
+    .query {
+        width: 27vw;
+    }
+    
+    .sendbtn {
+        width: 17vw;
+    }
+    
+
 }
 
 @media (max-width: 740px) {
