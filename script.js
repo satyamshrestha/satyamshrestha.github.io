@@ -31,14 +31,14 @@ $(document).ready(function () {
 
     // typing text animation script
     const typed = new Typed(".typing", {
-        strings: ["Web Developer", "Automation Specialist", "Pythonista", "Data Miner"],
+        strings: ["GenAI Engineer", "Web Developer", "Automation Specialist", "Data Miner"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     const typed2 = new Typed(".typing-2", {
-        strings: ["Web Developer", "Automation Specialist", "Pythonista", "Data Miner"],
+        strings: ["GenAI Engineer", "Web Developer", "Automation Specialist", "Data Miner"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -102,7 +102,7 @@ const form = document.getElementById('chat-form');
 
 async function sendMessage() {
     const userMessage = userInput.value;
-    userInput.value = ''; // Clear input field
+    userInput.value = '';
     console.log(userMessage)
     try {
         const response = await fetch('/chat', {
@@ -125,7 +125,6 @@ async function sendMessage() {
         chatHistory.scrollTop = chatHistory.scrollHeight;
     } catch (error) {
         console.error('Error:', error);
-        // Handle errors gracefully, e.g., display an error message to the user
     }
 }
 
