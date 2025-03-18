@@ -298,7 +298,7 @@ async function runChat(userInput) {
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html');
 });
-app.get('/chat', async (req, res) => {
+app.post('/chat', async (req, res) => {
   try {
     const userInput = req.body?.userInput;
     console.log('incoming /chat req', userInput)
