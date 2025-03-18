@@ -262,6 +262,10 @@ section .title::after {
     border-radius: 10px;
     margin-bottom: 5px;
     color: white;
+    align-self: flex-end;
+    display: inline-block;
+    max-width: 70%;  /* You can adjust this as needed */
+    word-wrap: break-word;
 }
 
 .bot-message {
@@ -271,6 +275,10 @@ section .title::after {
     background-color: #656565;
     border-radius: 10px;
     margin-bottom: 5px;
+    align-self: flex-start;
+    display: inline-block;
+    max-width: 70%;  /* You can adjust this as needed */
+    word-wrap: break-word;
 }
 
 #chat-form {
