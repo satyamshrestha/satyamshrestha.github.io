@@ -955,6 +955,7 @@ section .title::after {
 input,
 textarea {
     caret-color: red;
+    color: white;
 }
 
 .contact {
