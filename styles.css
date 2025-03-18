@@ -258,15 +258,17 @@ section .title::after {
 .user-message {
     text-align: right;
     padding: 10px;
-    background-color: #f0f0f0;
+    background-color: #10b3ea;
     border-radius: 10px;
     margin-bottom: 5px;
+    color: white;
 }
 
 .bot-message {
     text-align: left;
     padding: 10px;
-    background-color: #e0f0e0;
+    color: white;
+    background-color: #656565;
     border-radius: 10px;
     margin-bottom: 5px;
 }
