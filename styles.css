@@ -227,8 +227,6 @@ section .title::after {
     border: 1px solid rgba(255, 255, 255, 0.18);
     padding: 20px;
     width: 400px;
-    display: flex;
-    flex-direction: column;
     position: fixed;
     bottom: 6.5vw;
     right: 20px;
@@ -247,8 +245,10 @@ section .title::after {
 }
 
 #chat-history {
-    height: 300px;
+    height: 330px;
     overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
 }
 
 #chat-history::-webkit-scrollbar {
@@ -263,9 +263,6 @@ section .title::after {
     margin-bottom: 5px;
     color: white;
     align-self: flex-end;
-    display: inline-block;
-    max-width: 70%;  /* You can adjust this as needed */
-    word-wrap: break-word;
 }
 
 .bot-message {
@@ -276,9 +273,6 @@ section .title::after {
     border-radius: 10px;
     margin-bottom: 5px;
     align-self: flex-start;
-    display: inline-block;
-    max-width: 70%;  /* You can adjust this as needed */
-    word-wrap: break-word;
 }
 
 #chat-form {
