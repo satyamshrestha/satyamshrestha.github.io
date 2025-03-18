@@ -1299,12 +1299,10 @@ footer p a:hover {
     .query {
         width: 27vw;
     }
-    
-    .sendbtn {
-        width: 17vw;
-    }
-    
 
+    .sendbtn {
+        width: 10vw;
+    }
 }
 
 @media (max-width: 740px) {
@@ -1354,6 +1352,15 @@ footer p a:hover {
         bottom: 24vw;
         width: 300px;
     }
+
+    .query {
+        width: 200px;
+    }
+
+    .sendbtn {
+        width: 65px;
+    }
+
 
     .home .home-content .text-2 {
         font-size: 50px;
