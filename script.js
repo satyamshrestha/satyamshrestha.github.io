@@ -49,11 +49,11 @@ $(document).ready(function () {
     var piechart = new Chart(ctx, {
         type: 'pie',
         data: {
-            labels: ['HTML', 'CSS', 'Javascript', 'Python', 'C', 'Content Writing'],
+            labels: ['AI & Intelligent Systems', 'Web & Mobile App Development', 'Automation & Web Scraping', 'Other Programming Languages(C, PHP, etc.)'],
             datasets: [{
                 label: 'Knowledge',
-                data: [90, 77, 47, 56, 40, 70],
-                backgroundColor: ['#00ccff', '#dc091b', '#d08637', '#12aa42', '#847e6b', '#ded813'],
+                data: [40, 30, 20, 10],
+                backgroundColor: ['#00ccff', '#dc091b', '#d08637', '#ded813'],
                 hoverOffset: 6
             }]
         },
