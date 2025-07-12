@@ -1187,6 +1187,7 @@ footer h2 {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+
     transition: var(--transition);
 }
 
@@ -1223,11 +1224,13 @@ footer h2 {
 
 #media li:hover::before {
     inset: 0px;
+    border-radius: 50px;
 }
 
 #media li::after {
     content: '';
     position: absolute;
+    border-radius: 50px;
     inset: 0;
     background: var(--bg-dark);
     transform: rotate(45deg);
