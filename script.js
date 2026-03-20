@@ -164,7 +164,10 @@ $(document).ready(function () {
 
     // Typing animations with proper typewriter backspace effect
     const typed = new Typed(".typing", {
-        strings: ["an AI/ML Engineer", "a Web Developer", "an Automation Specialist", "a Data Miner"],
+        strings: ["a Python Automation Developer",
+            "an Automation Specialist",
+            "a Web Scraping Developer",
+            "a Data Extraction Expert"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true,
@@ -175,7 +178,10 @@ $(document).ready(function () {
     });
 
     const typed2 = new Typed(".typing-2", {
-        strings: ["an AI/ML Engineer", "a Web Developer", "an Automation Specialist", "a Data Miner"],
+        strings: ["a Python Automation Developer",
+            "an Automation Specialist",
+            "a Web Scraping Developer",
+            "a Data Extraction Expert"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true,
