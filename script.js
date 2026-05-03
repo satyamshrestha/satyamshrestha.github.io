@@ -164,10 +164,9 @@ $(document).ready(function () {
 
     // Typing animations with proper typewriter backspace effect
     const typed = new Typed(".typing", {
-        strings: ["a Python Automation Developer",
-            "an Automation Specialist",
-            "a Web Scraping Developer",
-            "a Data Extraction Expert"],
+        strings: ["a Software Developer",
+            "a Python Developer",
+            "a Backend Developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true,
@@ -178,10 +177,9 @@ $(document).ready(function () {
     });
 
     const typed2 = new Typed(".typing-2", {
-        strings: ["a Python Automation Developer",
-            "an Automation Specialist",
-            "a Web Scraping Developer",
-            "a Data Extraction Expert"],
+        strings: ["a Software Developer",
+            "a Python Developer",
+            "a Backend Developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true,
@@ -196,10 +194,10 @@ $(document).ready(function () {
     var piechart = new Chart(ctx, {
         type: 'doughnut',
         data: {
-            labels: ['AI & Machine Learning', 'Web & Mobile App Development', 'Automation & Web Scraping', 'Other Programming Languages'],
+            labels: ['Coding (Python + Backend)', 'Web & Mobile App Dev + Automation', 'Machine Learning', 'Communication'],
             datasets: [{
                 label: 'Knowledge',
-                data: [40, 40, 15, 5],
+                data: [70, 60, 30, 90],
                 backgroundColor: [
                     'rgba(16, 179, 234, 0.8)',
                     'rgba(220, 9, 27, 0.8)',
