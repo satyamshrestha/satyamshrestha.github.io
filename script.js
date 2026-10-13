@@ -197,7 +197,7 @@ $(document).ready(function () {
             labels: ['Coding (Python + Backend)', 'Web & Mobile App Dev + Automation', 'Machine Learning', 'Communication'],
             datasets: [{
                 label: 'Knowledge',
-                data: [70, 60, 30, 90],
+                data: [80, 60, 30, 90],
                 backgroundColor: [
                     'rgba(16, 179, 234, 0.8)',
                     'rgba(220, 9, 27, 0.8)',
