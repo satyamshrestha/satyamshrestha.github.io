@@ -1,5 +1,6 @@
 // node --version # Should be >= 18
 // npm install @google/generative-ai express
+// This code is just a sample for customer assistant bot. The website has assistant powered by botpress.
 
 const express = require('express');
 const { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold } = require('@google/generative-ai');
